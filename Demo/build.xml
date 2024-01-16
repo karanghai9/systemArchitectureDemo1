@@ -18,7 +18,6 @@
   	<pathelement location="lib/pitest-ant-1.9.3.jar"/>
   	</path>
   	<taskdef name="pitest" classname="org.pitest.ant.PitestTask" classpathref="pitest.path"/>
-
     <path id="JUnit 5.libraryclasspath">
             <pathelement location="lib/junit-jupiter-api_5.10.0.jar"/>
             <pathelement location="lib/junit-jupiter-engine_5.10.0.jar"/>

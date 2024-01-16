@@ -16,7 +16,7 @@ pipeline {
         {
             steps 
             {
-                sh '/opt/homebrew/bin/ant clean'
+                sh "ant clean"
             }
         }
         stage('Build') 

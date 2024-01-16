@@ -5,35 +5,35 @@ pipeline {
         {
             steps 
             {
-                bat "ant clean"
+                sh "ant clean"
             }
         }
         stage('Build') 
         {
             steps 
             {
-                bat "ant build"
+                sh "ant build"
             }
         }
         stage('Test') 
         {
             steps 
             {
-                bat "ant AdditionTest"
+                sh "ant AdditionTest"
             }
         }
         stage('Mutation_Testing') 
         {
             steps 
             {
-                bat "ant pit"
+                sh "ant pit"
             }
         }
         stage('Find_Bugs') 
         {
             steps 
             {
-                bat "ant spotbugs"
+                sh "ant spotbugs"
             }
         }
     }

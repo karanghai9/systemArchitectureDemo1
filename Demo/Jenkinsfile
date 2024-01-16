@@ -1,0 +1,57 @@
+pipeline {
+    agent any
+    tools {
+        ant 'Ant'
+    }
+    stages {
+        stage('Print Environment') {
+            steps {
+                script {
+                    sh 'env'
+                }
+            }
+        }
+        stage('Clean') 
+        {
+            steps 
+            {
+                sh "ant -f Demo/build.xml clean"
+            }
+        }
+        stage('Build') 
+        {
+            steps 
+            {
+                sh "ant -f Demo/build.xml build"
+            }
+        }
+        stage('Test') 
+        {
+            steps 
+            {
+                sh "ant -f Demo/build.xml AdditionTest"
+            }
+        }
+        stage('Junit reports') 
+        {
+            steps 
+            {
+                sh "ant -f Demo/build.xml junitreport"
+            }
+        }
+        stage('Mutation_Testing') 
+        {
+            steps 
+            {
+                sh "ant -f Demo/build.xml pit"
+            }
+        }
+        stage('Find_Bugs') 
+        {
+            steps 
+            {
+                sh "ant -f Demo/build.xml spotbugs"
+            }
+        }
+    }
+}

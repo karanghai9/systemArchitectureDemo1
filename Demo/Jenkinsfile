@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        ant "$(brew --prefix ant)"
+        ant '$(brew --prefix ant)'
     }
     stages {
         stage('Clean') 

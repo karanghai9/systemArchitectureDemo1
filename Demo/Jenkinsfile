@@ -15,7 +15,7 @@ pipeline {
         {
             steps 
             {
-                sh "ant clean"
+                sh "ant -f Demo/build.xml clean"
             }
         }
         stage('Build') 

@@ -1,1 +1,1 @@
-This is a demo CI/CD project created for self-learning.
+This is a CI/CD project created for self-learning.

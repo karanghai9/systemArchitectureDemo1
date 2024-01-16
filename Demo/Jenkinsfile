@@ -22,28 +22,28 @@ pipeline {
         {
             steps 
             {
-                sh "ant build"
+                sh "ant -f Demo/build.xml build"
             }
         }
         stage('Test') 
         {
             steps 
             {
-                sh "ant AdditionTest"
+                sh "ant -f Demo/build.xml AdditionTest"
             }
         }
         stage('Mutation_Testing') 
         {
             steps 
             {
-                sh "ant pit"
+                sh "ant -f Demo/build.xml pit"
             }
         }
         stage('Find_Bugs') 
         {
             steps 
             {
-                sh "ant spotbugs"
+                sh "ant -f Demo/build.xml spotbugs"
             }
         }
     }

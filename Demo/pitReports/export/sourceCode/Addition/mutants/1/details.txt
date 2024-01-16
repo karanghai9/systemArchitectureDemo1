@@ -1,0 +1,1 @@
+MutationDetails [id=MutationIdentifier [location=Location [clazz=sourceCode.Addition, method=add, methodDesc=(II)I], indexes=[6], mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.PrimitiveReturnsMutator], filename=Addition.java, block=[0], lineNumber=6, description=replaced int return with 0 for sourceCode/Addition::add, testsInOrder=[]]

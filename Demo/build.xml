@@ -19,25 +19,25 @@
   	</path>
   	<taskdef name="pitest" classname="org.pitest.ant.PitestTask" classpathref="pitest.path"/>
 
-  	<path id="JUnit 5.libraryclasspath">
-        <pathelement location="../../../.p2/pool/plugins/junit-jupiter-api_5.10.1.jar"/>
-        <pathelement location="../../../.p2/pool/plugins/junit-jupiter-engine_5.10.1.jar"/>
-        <pathelement location="../../../.p2/pool/plugins/junit-jupiter-migrationsupport_5.10.1.jar"/>
-        <pathelement location="../../../.p2/pool/plugins/junit-jupiter-params_5.10.1.jar"/>
-        <pathelement location="../../../.p2/pool/plugins/junit-platform-commons_1.10.1.jar"/>
-        <pathelement location="../../../.p2/pool/plugins/junit-platform-engine_1.10.1.jar"/>
-        <pathelement location="../../../.p2/pool/plugins/junit-platform-launcher_1.10.1.jar"/>
-        <pathelement location="../../../.p2/pool/plugins/junit-platform-runner_1.10.1.jar"/>
-        <pathelement location="../../../.p2/pool/plugins/junit-platform-suite-api_1.10.1.jar"/>
-        <pathelement location="../../../.p2/pool/plugins/junit-platform-suite-engine_1.10.1.jar"/>
-        <pathelement location="../../../.p2/pool/plugins/junit-platform-suite-commons_1.10.1.jar"/>
-        <pathelement location="../../../.p2/pool/plugins/junit-vintage-engine_5.10.1.jar"/>
-        <pathelement location="../../../.p2/pool/plugins/org.opentest4j_1.3.0.jar"/>
-        <pathelement location="../../../.p2/pool/plugins/org.apiguardian.api_1.1.2.jar"/>
-        <pathelement location="../../../.p2/pool/plugins/org.junit_4.13.2.v20230809-1000.jar"/>
-        <pathelement location="../../../.p2/pool/plugins/org.hamcrest_2.2.0.jar"/>
-        <pathelement location="../../../.p2/pool/plugins/org.hamcrest.core_2.2.0.v20230809-1000.jar"/>
-    </path>
+    <path id="JUnit 5.libraryclasspath">
+            <pathelement location="lib/junit-jupiter-api_5.10.0.jar"/>
+            <pathelement location="lib/junit-jupiter-engine_5.10.0.jar"/>
+            <pathelement location="lib/junit-jupiter-migrationsupport_5.10.0.jar"/>
+            <pathelement location="lib/junit-jupiter-params_5.10.0.jar"/>
+            <pathelement location="lib/junit-platform-commons_1.10.0.jar"/>
+            <pathelement location="lib/junit-platform-engine_1.10.0.jar"/>
+            <pathelement location="lib/junit-platform-launcher_1.10.0.jar"/>
+            <pathelement location="lib/junit-platform-runner_1.10.0.jar"/>
+            <pathelement location="lib/junit-platform-suite-api_1.10.0.jar"/>
+            <pathelement location="lib/junit-platform-suite-engine_1.10.0.jar"/>
+            <pathelement location="lib/junit-platform-suite-commons_1.10.0.jar"/>
+            <pathelement location="lib/junit-vintage-engine_5.10.0.jar"/>
+            <pathelement location="lib/org.opentest4j_1.3.0.jar"/>
+            <pathelement location="lib/org.apiguardian.api_1.1.2.jar"/>
+            <pathelement location="lib/org.junit_4.13.2.v20230809-1000.jar"/>
+            <pathelement location="lib/org.hamcrest_2.2.0.jar"/>
+            <pathelement location="lib/org.hamcrest.core_2.2.0.v20230809-1000.jar"/>
+	 </path>
     <path id="Demo1.classpath">
         <pathelement location="bin"/>
         <path refid="JUnit 5.libraryclasspath"/>

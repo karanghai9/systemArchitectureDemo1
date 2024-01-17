@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Karans-MacBook-Air.local" name="sourceCode.FinancialCalTest" skipped="0" tests="2" time="0.04" timestamp="2024-01-17T04:15:08">
+<testsuite errors="0" failures="0" hostname="Karans-MacBook-Air.local" name="sourceCode.FinancialCalTest" skipped="0" tests="2" time="0.039" timestamp="2024-01-17T16:40:07">
   <properties>
     <property name="ant.file.Demo1" value="/Users/karanghai/git/java_repository/Demo/build.xml" />
     <property name="ant.library.dir" value="/opt/homebrew/Cellar/ant/1.10.14/lib" />
@@ -23,7 +23,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD" />
     <property name="user.country" value="DE" />
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner sourceCode.FinancialCalTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/karanghai/git/java_repository/Demo/junit/TEST-sourceCode.FinancialCalTest.xml crashfile=/Users/karanghai/git/java_repository/Demo/junitvmwatcher14427787012991168698.properties propsfile=/Users/karanghai/git/java_repository/Demo/junit11915228700841591219.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner sourceCode.FinancialCalTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/karanghai/git/java_repository/Demo/junit/TEST-sourceCode.FinancialCalTest.xml crashfile=/Users/karanghai/git/java_repository/Demo/junitvmwatcher2572545503265731508.properties propsfile=/Users/karanghai/git/java_repository/Demo/junit15352381702538217100.properties" />
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
     <property name="jdk.debug" value="release" />
     <property name="sun.cpu.endian" value="little" />

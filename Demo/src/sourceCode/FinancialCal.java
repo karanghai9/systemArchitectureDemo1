@@ -26,7 +26,7 @@ public class FinancialCal {
     public static double calculateMonthlyRate(double debtValue, double interestRate, int paybackDuration) {
     	double monthly_rate = 0.0;
     	if(debtValue>0 && interestRate>0 && paybackDuration>0) {
-    		monthly_rate = debtValue/paybackDuration + debtValue * (interestRate/12)* 0.01;
+    		monthly_rate = debtValue/paybackDuration + debtValue * (interestRate/paybackDuration)* 0.01;
     	}
     	return monthly_rate;
     }

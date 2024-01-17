@@ -144,7 +144,8 @@ public class sourceCode/FinancialCal {
     DDIV
     DLOAD 0
     DLOAD 2
-    LDC 12.0
+    ILOAD 4
+    I2D
     DMUL
     DMUL
     LDC 0.01

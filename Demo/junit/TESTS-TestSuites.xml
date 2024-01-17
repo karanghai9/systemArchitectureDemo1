@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="Karans-MacBook-Air.local" id="0" name="FinancialCalTest" package="sourceCode" skipped="0" tests="2" time="0.258" timestamp="2024-01-17T04:14:52">
+  <testsuite errors="0" failures="0" hostname="Karans-MacBook-Air.local" id="0" name="FinancialCalTest" package="sourceCode" skipped="0" tests="2" time="0.207" timestamp="2024-01-17T16:39:58">
       <properties>
           <property name="ant.file.Demo1" value="/Users/karanghai/git/java_repository/Demo/build.xml" />
 
@@ -46,7 +46,7 @@
 
           <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner sourceCode.FinancialCalTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/karanghai/git/java_repository/Demo/junit/TEST-sourceCode.FinancialCalTest.xml crashfile=/Users/karanghai/git/java_repository/Demo/junitvmwatcher11321019783802462515.properties propsfile=/Users/karanghai/git/java_repository/Demo/junit265884708547270578.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner sourceCode.FinancialCalTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/karanghai/git/java_repository/Demo/junit/TEST-sourceCode.FinancialCalTest.xml crashfile=/Users/karanghai/git/java_repository/Demo/junitvmwatcher15896236178627448438.properties propsfile=/Users/karanghai/git/java_repository/Demo/junit8535808489974478889.properties" />
 
           <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
 
@@ -188,9 +188,9 @@
 
       </properties>
 
-      <testcase classname="sourceCode.FinancialCalTest" name="testOverallDebt" time="0.009" />
+      <testcase classname="sourceCode.FinancialCalTest" name="testOverallDebt" time="0.007" />
 
-      <testcase classname="sourceCode.FinancialCalTest" name="testMonthlyRate" time="0.001" />
+      <testcase classname="sourceCode.FinancialCalTest" name="testMonthlyRate" time="0.0" />
 
       <system-out><![CDATA[]]></system-out>
 

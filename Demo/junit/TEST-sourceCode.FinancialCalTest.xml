@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Karans-MacBook-Air.local" name="sourceCode.FinancialCalTest" skipped="0" tests="2" time="0.04" timestamp="2024-01-17T04:15:08">
+  <properties>
+    <property name="ant.file.Demo1" value="/Users/karanghai/git/java_repository/Demo/build.xml" />
+    <property name="ant.library.dir" value="/opt/homebrew/Cellar/ant/1.10.14/lib" />
+    <property name="env.TERM" value="xterm-256color" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.PWD" value="/Users/karanghai/git/java_repository/Demo" />
+    <property name="java.specification.version" value="21" />
+    <property name="ant.project.name" value="Demo1" />
+    <property name="env.LC_CTYPE" value="UTF-8" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="java.class.path" value="/Users/karanghai/git/java_repository/Demo/bin:/Users/karanghai/git/java_repository/Demo/lib/junit-jupiter-api_5.10.0.jar:/Users/karanghai/git/java_repository/Demo/lib/junit-jupiter-engine_5.10.0.jar:/Users/karanghai/git/java_repository/Demo/lib/junit-jupiter-migrationsupport_5.10.0.jar:/Users/karanghai/git/java_repository/Demo/lib/junit-jupiter-params_5.10.0.jar:/Users/karanghai/git/java_repository/Demo/lib/junit-platform-commons_1.10.0.jar:/Users/karanghai/git/java_repository/Demo/lib/junit-platform-engine_1.10.0.jar:/Users/karanghai/git/java_repository/Demo/lib/junit-platform-launcher_1.10.0.jar:/Users/karanghai/git/java_repository/Demo/lib/junit-platform-runner_1.10.0.jar:/Users/karanghai/git/java_repository/Demo/lib/junit-platform-suite-api_1.10.0.jar:/Users/karanghai/git/java_repository/Demo/lib/junit-platform-suite-engine_1.10.0.jar:/Users/karanghai/git/java_repository/Demo/lib/junit-platform-suite-commons_1.10.0.jar:/Users/karanghai/git/java_repository/Demo/lib/junit-vintage-engine_5.10.0.jar:/Users/karanghai/git/java_repository/Demo/lib/org.opentest4j_1.3.0.jar:/Users/karanghai/git/java_repository/Demo/lib/org.apiguardian.api_1.1.2.jar:/Users/karanghai/git/java_repository/Demo/lib/org.junit_4.13.2.v20230809-1000.jar:/Users/karanghai/git/java_repository/Demo/lib/org.hamcrest_2.2.0.jar:/Users/karanghai/git/java_repository/Demo/lib/org.hamcrest.core_2.2.0.v20230809-1000.jar:/opt/homebrew/Cellar/ant/1.10.14/lib/ant-launcher.jar:/opt/homebrew/Cellar/ant/1.10.14/lib/ant.jar:/opt/homebrew/Cellar/ant/1.10.14/lib/ant-junit.jar:/opt/homebrew/Cellar/ant/1.10.14/lib/ant-junit4.jar" />
+    <property name="env.HOME" value="/Users/karanghai" />
+    <property name="source" value="17" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="java.vendor.url" value="https://java.oracle.com/" />
+    <property name="spotbugs.home" value="lib/spotbugs-4.8.3/lib" />
+    <property name="java.vm.specification.version" value="21" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="DE" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner sourceCode.FinancialCalTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/karanghai/git/java_repository/Demo/junit/TEST-sourceCode.FinancialCalTest.xml crashfile=/Users/karanghai/git/java_repository/Demo/junitvmwatcher14427787012991168698.properties propsfile=/Users/karanghai/git/java_repository/Demo/junit11915228700841591219.properties" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="/Users/karanghai" />
+    <property name="user.language" value="en" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2023-09-19" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home" />
+    <property name="ant.file.type.Demo1" value="file" />
+    <property name="basedir" value="/Users/karanghai/git/java_repository/Demo" />
+    <property name="file.separator" value="/" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="ant.java.version" value="21" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="env.HOMEBREW_CELLAR" value="/opt/homebrew/Cellar" />
+    <property name="env.HOMEBREW_REPOSITORY" value="/opt/homebrew" />
+    <property name="env.MANPATH" value="/opt/homebrew/share/man::" />
+    <property name="apple.awt.application.name" value="JUnitTestRunner" />
+    <property name="env.XPC_SERVICE_NAME" value="0" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.runtime.version" value="21+35-LTS-2513" />
+    <property name="env.HOMEBREW_PREFIX" value="/opt/homebrew" />
+    <property name="env.TERM_PROGRAM_VERSION" value="452" />
+    <property name="user.name" value="karanghai" />
+    <property name="ant.file" value="/Users/karanghai/git/java_repository/Demo/build.xml" />
+    <property name="env.PATH" value="/opt/homebrew/opt/openjdk@17/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Applications/VMware Fusion.app/Contents/Public" />
+    <property name="stdout.encoding" value="UTF-8" />
+    <property name="path.separator" value=":" />
+    <property name="os.version" value="14.2.1" />
+    <property name="env.XPC_FLAGS" value="0x0" />
+    <property name="env.LOGNAME" value="karanghai" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0" />
+    <property name="env.__CFBundleIdentifier" value="com.apple.Terminal" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="ant.project.invoked-targets" value="pit" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.TERM_SESSION_ID" value="AEEBF143-9CEA-4887-9DCC-80D6E39157E0" />
+    <property name="env.SHELL" value="/bin/zsh" />
+    <property name="env.SHLVL" value="1" />
+    <property name="ant.core.lib" value="/opt/homebrew/Cellar/ant/1.10.14/lib/ant.jar" />
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+    <property name="java.io.tmpdir" value="/var/folders/_k/q5t59kcn5xvgtfkqscc_msm00000gn/T/" />
+    <property name="java.version" value="21" />
+    <property name="user.dir" value="/Users/karanghai/git/java_repository/Demo" />
+    <property name="os.arch" value="aarch64" />
+    <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.tI4vA79h8Q/Listeners" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.home" value="/opt/homebrew/Cellar/ant/1.10.14" />
+    <property name="target" value="17" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="native.encoding" value="UTF-8" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.14 compiled on August 16 2023" />
+    <property name="java.library.path" value="/Users/karanghai/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="env.TMPDIR" value="/var/folders/_k/q5t59kcn5xvgtfkqscc_msm00000gn/T/" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="stderr.encoding" value="UTF-8" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="java.vm.version" value="21+35-LTS-2513" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="env.INFOPATH" value="/opt/homebrew/share/info:" />
+    <property name="java.class.version" value="65.0" />
+    <property name="env.USER" value="karanghai" />
+    <property name="env.TERM_PROGRAM" value="Apple_Terminal" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ant.project.default-target" value="build" />
+  </properties>
+  <testcase classname="sourceCode.FinancialCalTest" name="testOverallDebt" time="0.003" />
+  <testcase classname="sourceCode.FinancialCalTest" name="testMonthlyRate" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

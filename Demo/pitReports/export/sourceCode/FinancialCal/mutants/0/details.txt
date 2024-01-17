@@ -1,0 +1,1 @@
+MutationDetails [id=MutationIdentifier [location=Location [clazz=sourceCode.FinancialCal, method=main, methodDesc=([Ljava/lang/String;)V], indexes=[12], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=FinancialCal.java, block=[1], lineNumber=8, description=removed call to java/io/PrintStream::println, testsInOrder=[]]

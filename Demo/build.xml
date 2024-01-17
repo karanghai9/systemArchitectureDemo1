@@ -41,11 +41,11 @@
         <pathelement location="bin"/>
         <path refid="JUnit 5.libraryclasspath"/>
     </path>
-    <path id="run.AdditionTest.classpath">
+    <path id="run.FinancialCalTest.classpath">
         <path refid="Demo1.classpath"/>
         <path refid="JUnit 5.libraryclasspath"/>
     </path>
-    <path id="run.Addition.classpath">
+    <path id="run.FinancialCal.classpath">
         <path refid="Demo1.classpath"/>
         <path refid="JUnit 5.libraryclasspath"/>
     </path>
@@ -85,18 +85,18 @@
         <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
         <antcall target="build"/>
     </target>
-  	<target name="AdditionTest">
+  	<target name="FinancialCalTest">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
-            <test name="sourceCode.AdditionTest" todir="${junit.output.dir}"/>
+            <test name="sourceCode.FinancialCalTest" todir="${junit.output.dir}"/>
             <jvmarg line="-ea"/>
-            <classpath refid="run.AdditionTest.classpath"/>
+            <classpath refid="run.FinancialCalTest.classpath"/>
         </junit>
     </target>
-    <target name="Addition">
-        <java classname="sourceCode.Addition" failonerror="true" fork="yes">
-            <classpath refid="run.Addition.classpath"/>
+    <target name="FinancialCal">
+        <java classname="sourceCode.FinancialCal" failonerror="true" fork="yes">
+            <classpath refid="run.FinancialCal.classpath"/>
         </java>
     </target>
     <target name="junitreport">
@@ -108,10 +108,10 @@
         </junitreport>
     </target>
      	
-  	<target name="pit" depends="AdditionTest">
+  	<target name="pit" depends="FinancialCalTest">
   	<path id="mutation.path">
   	<path refid="pitest.path"/>
-  	<path refid="run.AdditionTest.classpath"/>
+  	<path refid="run.FinancialCalTest.classpath"/>
   	</path>
   	<!--  export feature has been activated to write mutants to file  -->
   	<pitest features="+EXPORT" pitClasspath="pitest.path" threads="2" classPath="mutation.path" targetTests="sourceCode.*" targetClasses="sourceCode.*" reportDir="pitReports" sourceDir="src"/>
@@ -121,7 +121,7 @@
   	<spotbugs home="${spotbugs.home}" output="xml" outputFile="bcel-sb.xml">
   	<auxClasspath path="${basedir}/lib/Regex.jar"/>
   	<sourcePath path="${basedir}/src/"/>
-  	<class location="${basedir}/bin/sourceCode/Addition.class"/>
+  	<class location="${basedir}/bin/sourceCode/FinancialCal.class"/>
   	</spotbugs>
   	</target>
 </project>

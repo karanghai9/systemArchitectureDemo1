@@ -1,1 +1,0 @@
-MutationDetails [id=MutationIdentifier [location=Location [clazz=sourceCode.Addition, method=main, methodDesc=([Ljava/lang/String;)V], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=Addition.java, block=[2], lineNumber=15, description=removed call to java/io/PrintStream::println, testsInOrder=[]]
